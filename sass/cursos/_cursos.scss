@@ -1,0 +1,46 @@
+.cursos {
+  padding: 40px 20px;
+  background-color: $light-orange;
+  margin-bottom: 40px;
+
+  &-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+}
+
+.curso {
+  background-color: $white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  button {
+    margin-top: auto;
+    padding: 10px;
+    border: none;
+    background-color: $orange;
+    color: $white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+.logo-usuario {
+  width: 7rem;
+}
+
+.comentario-usuario {
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.profesores-bg {
+  background-color: rgba(255, 229, 180, 0.996);
+}

@@ -1,0 +1,37 @@
+.index-header {
+  background-image: url(../img/rojo1.jpg);
+  background-attachment: fixed;
+  padding-top: 10px;
+  height: 75vh;
+
+  &-contac {
+    background-image: url(../img/rojo1.jpg);
+  }
+}
+
+.header-contenedor-superior {
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+  width: 100%;
+  top: 0%;
+}
+
+.logotipo {
+  width: 7rem;
+}
+
+.header-contenedor-inferior {
+  padding-top: 100px;
+}
+
+.index-h1 {
+  color: $primary-color;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.index-h1p {
+  text-align: center;
+  color: $primary-color;
+}
