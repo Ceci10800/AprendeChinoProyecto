@@ -1,7 +1,17 @@
+.navbar {
+  position: sticky;      
+  top: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.95); 
+  backdrop-filter: blur(10px);                 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);      
+  z-index: 999;                                
+  transition: background-color 0.3s ease;
+}
+
 .index-header {
   background-image: url(../img/rojo1.jpg);
   background-attachment: fixed;
-  padding-top: 10px;
   height: 75vh;
 
   &-contac {
@@ -23,15 +33,16 @@
 
 .header-contenedor-inferior {
   padding-top: 100px;
+  text-align: center;
 }
 
 .index-h1 {
   color: $primary-color;
   font-size: 3.5rem;
-  text-align: center;
 }
 
 .index-h1p {
-  text-align: center;
   color: $primary-color;
+  font-size: 1.2rem;
 }
+
